@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: url(/images/backrounds/DESK2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-color: #252424;
+  width: 100wh;
+  height: 100vh;
+  -webkit-animation: back 10s ease 2s infinite alternate;
+          animation: back 10s ease 2s infinite alternate;
+}
+
+@-webkit-keyframes back {
+  0% {
+    background: #252424 url(/images/backrounds/stock2.jpg) center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-blend-mode: overlay;
+  }
+  50% {
+    background: #252424 url(/images/backrounds/stock2.jpg) center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-blend-mode: overlay;
+  }
+  100% {
+    background: #252424 url(/images/backrounds/DESK2.jpg) center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-blend-mode: overlay;
+  }
+}
+
+@keyframes back {
+  0% {
+    background: #252424 url(/images/backrounds/stock2.jpg) center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-blend-mode: overlay;
+  }
+  50% {
+    background: #252424 url(/images/backrounds/stock2.jpg) center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-blend-mode: overlay;
+  }
+  100% {
+    background: #252424 url(/images/backrounds/DESK2.jpg) center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-blend-mode: overlay;
+  }
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .logo img {
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+main .login {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 50px 30px;
+  -webkit-box-shadow: 1px 1px 10px #0a0a0a;
+          box-shadow: 1px 1px 10px #0a0a0a;
+  border-radius: 20px;
+  height: 400px;
+}
+
+main .login .container {
+  text-align: center;
+}
+
+main .login .container h1 {
+  font-size: 30px;
+  color: white;
+}
+
+main .login .container h1 span {
+  color: #ff6600;
+}
+
+main .login .container p {
+  color: #ccc;
+  font-size: 14px;
+}
+
+main .login .container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+main .login .container form input {
+  height: 40px;
+  border: none;
+  outline: none;
+  margin: 5px 0;
+  width: 100%;
+  padding: 20px;
+}
+
+main .login .container form .btn {
+  padding: 20px;
+  width: 100%;
+  margin: 10px auto;
+}
+
+main .login .container form p {
+  font-size: 14px;
+  padding: 10px 0px 1px;
+}
+
+main .login .container form p a {
+  text-decoration: none;
+  color: #ff6600;
+}
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,97 @@
+$orange: #ff6600;
+$black: #0a0a0a;
+$white: white;
+$green: #1B9550;
+$lightBlack: rgb(37, 36, 36);
+$darkWhite: #ccc;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(/images/backrounds/DESK2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: $lightBlack;
+    width: 100wh;
+    height: 100vh;
+    animation: back 10s ease 2s infinite alternate ;
+}
+
+@keyframes back {
+    0%{background:$lightBlack url(/images/backrounds/stock2.jpg) center; width:100vw; height: 100vh;
+        background-size: cover; background-blend-mode: overlay;}
+    50%{background:$lightBlack url(/images/backrounds/stock2.jpg) center; width:100vw; height: 100vh;
+        background-size: cover; background-blend-mode: overlay;}
+    100%{background:$lightBlack url(/images/backrounds/DESK2.jpg) center; width:100vw; height: 100vh;
+        background-size: cover; background-blend-mode: overlay;}
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    .logo{
+        img{
+            width: 200px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .login{
+        background: rgba(0,0,0,.3);
+        padding: 50px 30px;
+        box-shadow: 1px 1px 10px $black;
+        border-radius: 20px;
+        height: 400px;
+        .container{
+            text-align: center;
+            h1{
+                font-size: 30px;
+                color: $white;
+                span{
+                    color: $orange;
+                }
+            }
+            p{
+                color: $darkWhite;
+                font-size: 14px;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                margin-top: 20px;
+                width: 100%;
+
+                input{
+                    height: 40px;
+                    border: none;
+                    outline: none;
+                    margin: 5px 0;
+                    width: 100%;
+                    padding: 20px;
+                }
+
+                .btn{
+                    padding: 20px ;
+                    width: 100%;
+                    margin: 10px auto;
+                }
+                p{
+                    font-size: 14px;
+                    padding: 10px 0px 1px;
+                    a{
+                        text-decoration: none;
+                        color: $orange;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+$orange: #ff6600;
+$black: #0a0a0a;
+$white: white;
+$green: #1B9550;
+$lightBlack: rgb(37, 36, 36);
+$darkWhite: #ccc;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    
+    h1{
+        color: $white;
+        text-align: center;
+        background: url(/images/backrounds/coin.jpeg);
+        background-blend-mode: overlay;
+        background-color: $lightBlack;
+        background-position: center;
+        background-size: cover;
+        padding: 30px;
+        span{
+            color: $orange;
+        }
+    }
+    .container{
+        margin: 20px 30px;
+
+        .col{
+            background: $lightBlack;
+            margin: 30px auto;
+            padding: 20px;
+
+            h2{
+                color: $white;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            p{
+                font-size: 14px;
+                color: $darkWhite;
+            }
+        }
+    }
+}
+

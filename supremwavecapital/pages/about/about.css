@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .about {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+main .about .container h1 {
+  background: url(/images/backrounds/coin.jpeg);
+  background-blend-mode: overlay;
+  background-color: #252424;
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+}
+
+main .about .container img {
+  width: 100%;
+  margin-top: -10px;
+}
+
+main .about .container .text {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+main .about .container .text h2 {
+  font-size: 25px;
+  text-align: left;
+  padding: 0 0 0 25px;
+  color: white;
+}
+
+main .about .container .text p {
+  text-align: left;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+main .motto {
+  padding: 30px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+main .motto h1 {
+  color: white;
+  text-align: center;
+}
+
+main .motto h1 span {
+  color: #ff6600;
+}
+
+main .motto p {
+  color: #ccc;
+  text-align: center;
+}
+/*# sourceMappingURL=about.css.map */

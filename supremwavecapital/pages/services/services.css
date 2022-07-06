@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main h1 {
+  color: white;
+  text-align: center;
+  background: url(/images/backrounds/coin.jpeg);
+  background-blend-mode: overlay;
+  background-color: #252424;
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+}
+
+main h1 span {
+  color: #ff6600;
+}
+
+main .container {
+  margin: 20px 30px;
+}
+
+main .container .col {
+  background: #252424;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+main .container .col h2 {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+main .container .col p {
+  font-size: 14px;
+  color: #ccc;
+}
+/*# sourceMappingURL=services.css.map */

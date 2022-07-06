@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .terms h1 {
+  background: url(/images/backrounds/stock.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: #252424;
+  padding: 30px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+main .terms h1 span {
+  color: #ff6600;
+}
+
+main .terms .content {
+  margin: 30px 100px;
+}
+
+main .terms .content .col {
+  padding: 20px;
+}
+
+main .terms .content .col h2 {
+  color: #ccc;
+  font-size: 18px;
+}
+
+main .terms .content .col p {
+  color: white;
+  font-weight: 100;
+  font-size: 13px;
+}
+/*# sourceMappingURL=terms.css.map */

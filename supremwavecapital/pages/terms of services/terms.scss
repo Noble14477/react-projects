@@ -1,0 +1,50 @@
+$orange: #ff6600;
+$black: #0a0a0a;
+$white: white;
+$green: #1B9550;
+$lightBlack: rgb(37, 36, 36);
+$darkWhite: #ccc;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    .terms{
+       h1{
+           background: url(/images/backrounds/stock.jpg);
+           background-position: center;
+           background-size: cover;
+           background-blend-mode: overlay;
+           background-color: $lightBlack;
+           padding: 30px;
+           color: $white;
+           font-size: 30px;
+           text-align: center;
+           span{
+               color: $orange;
+           }
+       } 
+
+       .content{
+           margin: 30px 100px;
+           
+            
+            .col{
+                padding: 20px;
+                
+                h2{
+                    color: $darkWhite;
+                    font-size: 18px;
+                }
+                p{
+                    color: $white;
+                    font-weight: 100;
+                    font-size: 13px;
+                }
+            }
+       }
+    }
+}

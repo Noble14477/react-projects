@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .faq h1 {
+  background: url(/images/backrounds/stock.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: #252424;
+  padding: 30px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+main .faq h1 span {
+  color: #ff6600;
+}
+
+main .faq .content {
+  margin: 30px;
+  border: 1px solid #252424;
+}
+
+main .faq .content .col {
+  padding: 20px;
+  border-bottom: 1px solid #252424;
+}
+
+main .faq .content .col:last-child {
+  border-bottom: 0px solid #252424;
+}
+
+main .faq .content .col h2 {
+  color: #ccc;
+  font-size: 18px;
+}
+
+main .faq .content .col p {
+  color: white;
+  font-weight: 100;
+  font-size: 13px;
+}
+/*# sourceMappingURL=faq.css.map */

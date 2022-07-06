@@ -1,0 +1,67 @@
+$orange: #ff6600;
+$black: #0a0a0a;
+$white: white;
+$green: #1B9550;
+$lightBlack: rgb(37, 36, 36);
+$darkWhite: #ccc;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    .about{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+        .container{
+            
+            h1{
+                background: url(/images/backrounds/coin.jpeg);
+                background-blend-mode: overlay;
+                background-color: $lightBlack;
+                background-position: center;
+                background-size: cover;
+                padding: 30px;
+                
+            }
+            img{
+                width: 100%;
+                margin-top: -10px;
+            }
+            .text{
+                padding-top: 50px;
+                padding-bottom: 30px;
+                h2{
+                    font-size: 25px;
+                    text-align: left;
+                    padding: 0 0 0 25px;
+                    color: $white;
+                }
+                p{
+                    text-align: left;
+                    font-size: 14px;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+
+    .motto{
+        padding: 30px;
+        border-top: 1px solid $darkWhite;
+        border-bottom: 1px solid $darkWhite;
+        h1{
+            color: $white;
+            text-align: center;
+            span{
+                color: $orange;
+            }
+        }
+        p{
+            color: $darkWhite;
+            text-align: center;
+        }
+    }
+}
